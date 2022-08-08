@@ -1,0 +1,60 @@
+h2{background: #2B6600;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 23px;
+    margin: 12px 0 !important;
+    padding: 5px 0 5px 10px;
+    text-shadow: 2px 2px 3px #222222;
+}
+
+.card{
+    margin: 5% 0 5% 7%;
+	background: rgb(205, 202, 12);
+	/*display: flex;
+	flex-direction: column;*/
+    width: 25%;
+    border: rgb(42, 51, 4) 3px solid;
+    
+}
+button{
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  margin-left: 50px;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.container
+{
+    background-color: rgb(246, 152, 29);
+    width: 50%;
+}
+.card-body{
+    width: 100%;
+}
